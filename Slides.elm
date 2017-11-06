@@ -15,8 +15,7 @@ intro =
     , position ( 800, 480 ) [ image ( 120, 120 ) "assets/zalando.jpg" ]
     , position ( 0, 250 ) [ image ( 1024, 200 ) "assets/mosaic-stripe.jpg" ]
     , position ( 110, 480 )
-        [ richtext """Andrey Kuzmin [@unsoundscapes](https://twitter.com/unsoundscapes)"""
-        , richtext """Arpad Ryszka [@arpad_ryszka](https://twitter.com/arpad_ryszka)"""
+        [ richtext """Moritz Grauel [@mo_gr](https://twitter.com/mo_gr)"""
         ]
     ]
 
@@ -217,7 +216,8 @@ _p613.end(4, "https://.../client.js", "footer")
             ]
       ]
     , [ shout "How to transition from the monolith?" ]
-      -- Arpad’s Slides (17 in total)
+
+    -- Arpad’s Slides (17 in total)
     , [ bulletslide "Transition"
             [ "big bang switch impossible"
             , "step-by-step migration of feature sets"
@@ -235,11 +235,12 @@ _p613.end(4, "https://.../client.js", "footer")
             ]
       , position ( 650, 280 ) [ image ( 250, 330 ) "assets/skipper.png" ]
       ]
-      -- , [ padded
-      --       [ title "Like an MVC router but the controllers are microservices"
-      --       , image (840, 303) "assets/postmvc.png"
-      --       ]
-      --   ]
+
+    -- , [ padded
+    --       [ title "Like an MVC router but the controllers are microservices"
+    --       , image (840, 303) "assets/postmvc.png"
+    --       ]
+    --   ]
     , [ shout "How does it work?" ]
     , [ codeslide "Routing Between Old and New" "elm" """/acme-shoes -> https://tailor.zalan.do
 
@@ -307,20 +308,21 @@ jimmyCatchall: *
             , "syntax check"
             ]
       ]
-      --   , [ codeslide "Mapping the public web site to numerous internal services" "elm" """mosaicCatalog: Path("/acme-shoes") && Traffic(0.33)
-      --   -> customerCookie()
-      --   -> xalando()
-      --   -> modPath(".*", "/catalog")
-      --   -> "https://tailor.zalan.do";
-      --
-      -- mosaicApi: Path("/search") && Method("POST")
-      --   -> xalando()
-      --   -> "https://search.zalan.do";
-      --
-      -- jimmyCatchall: *
-      --   -> customerCookie()
-      --   -> "https://jimmy.zalan.do";"""
-      --     ]
+
+    --   , [ codeslide "Mapping the public web site to numerous internal services" "elm" """mosaicCatalog: Path("/acme-shoes") && Traffic(0.33)
+    --   -> customerCookie()
+    --   -> xalando()
+    --   -> modPath(".*", "/catalog")
+    --   -> "https://tailor.zalan.do";
+    --
+    -- mosaicApi: Path("/search") && Method("POST")
+    --   -> xalando()
+    --   -> "https://search.zalan.do";
+    --
+    -- jimmyCatchall: *
+    --   -> customerCookie()
+    --   -> "https://jimmy.zalan.do";"""
+    --     ]
     , [ bulletslide "Scaling The Routing Table"
             [ "custom CMS pages and promotions: ~ 10k - 100k"
             , "teams interacting with the routing configuration: ~ 15 - 200?"
