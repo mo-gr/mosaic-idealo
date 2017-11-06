@@ -12425,7 +12425,11 @@ var _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Slides$s
 																																									_1: {
 																																										ctor: '::',
 																																										_0: 'Rest API and supplementary tooling',
-																																										_1: {ctor: '[]'}
+																																										_1: {
+																																											ctor: '::',
+																																											_0: 'stricter successor rkeep in development',
+																																											_1: {ctor: '[]'}
+																																										}
 																																									}
 																																								}
 																																							}),

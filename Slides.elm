@@ -339,6 +339,7 @@ jimmyCatchall: *
             [ "organization specific rules for routing"
             , "OAuth2 based rights management"
             , "Rest API and supplementary tooling"
+            , "stricter successor rkeep in development"
             ]
       , position ( 650, 280 ) [ image ( 230, 283 ) "assets/innkeeper.png" ]
       ]
