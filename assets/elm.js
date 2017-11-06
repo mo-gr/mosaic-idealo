@@ -12628,8 +12628,12 @@ var _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Slides$s
 																																																						_0: 'https://github.com/zalando/innkeeper',
 																																																						_1: {
 																																																							ctor: '::',
-																																																							_0: 'https://tech.zalando.com',
-																																																							_1: {ctor: '[]'}
+																																																							_0: 'https://github.com/mosaic9/mosaic-compose',
+																																																							_1: {
+																																																								ctor: '::',
+																																																								_0: 'https://tech.zalando.com',
+																																																								_1: {ctor: '[]'}
+																																																							}
 																																																						}
 																																																					}
 																																																				}

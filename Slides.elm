@@ -381,6 +381,7 @@ jimmyCatchall: *
                     , "https://github.com/zalando/tailor"
                     , "https://github.com/zalando/skipper"
                     , "https://github.com/zalando/innkeeper"
+                    , "https://github.com/mosaic9/mosaic-compose"
                     , "https://tech.zalando.com"
                     ]
             , position ( 800, 480 ) [ image ( 120, 120 ) "assets/zalando.jpg" ]
