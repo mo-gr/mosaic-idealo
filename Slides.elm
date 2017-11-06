@@ -347,6 +347,8 @@ jimmyCatchall: *
             , "compression proxy"
             , "static file server"
             , "network throttling and diagnostics"
+            , "internal developer portal"
+            , "kubernetes ingress controller"
             ]
       ]
     , [ bulletslide "Outcome: a Flexible Router"
@@ -356,6 +358,10 @@ jimmyCatchall: *
             , "custom logic through clear extension points (in Go)"
             , "on-the-fly reconfiguration"
             ]
+      ]
+    , [ bulletslide "Outcome: Migration Status"
+            [ "Mostly complete", "Missing: legacy CMS and user account" ]
+      , position ( 150, 280 ) [ image ( 305, 283 ) "assets/mosaic-jimmy-2017-11-06.png" ]
       ]
     , [ shout "The Mosaic Architecture" ]
     , [ background "assets/architecture.png" [] ]

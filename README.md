@@ -17,3 +17,7 @@ Moritz is a fullstack cat herder and anarchitect at Zalando. He shaves bike shed
 ## Building the slides
 
 `elm make Main.elm --output assets/elm.js --yes && open index.html`
+
+## Credit
+
+Based on slides from [unsoundscapes](http://unsoundscapes.com/slides/2016-09-29-project-mosaic-an-architecture-for-the-frontend-microservices/).

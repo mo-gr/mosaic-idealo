@@ -12464,7 +12464,15 @@ var _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Slides$s
 																																											_1: {
 																																												ctor: '::',
 																																												_0: 'network throttling and diagnostics',
-																																												_1: {ctor: '[]'}
+																																												_1: {
+																																													ctor: '::',
+																																													_0: 'internal developer portal',
+																																													_1: {
+																																														ctor: '::',
+																																														_0: 'kubernetes ingress controller',
+																																														_1: {ctor: '[]'}
+																																													}
+																																												}
 																																											}
 																																										}
 																																									}
@@ -12505,17 +12513,39 @@ var _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Slides$s
 																																								ctor: '::',
 																																								_0: {
 																																									ctor: '::',
-																																									_0: _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$shout('The Mosaic Architecture'),
-																																									_1: {ctor: '[]'}
+																																									_0: A2(
+																																										_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Slides$bulletslide,
+																																										'Outcome: Migration Status',
+																																										{
+																																											ctor: '::',
+																																											_0: 'Mostly complete',
+																																											_1: {
+																																												ctor: '::',
+																																												_0: 'Missing: legacy CMS and user account',
+																																												_1: {ctor: '[]'}
+																																											}
+																																										}),
+																																									_1: {
+																																										ctor: '::',
+																																										_0: A2(
+																																											_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$position,
+																																											{ctor: '_Tuple2', _0: 150, _1: 280},
+																																											{
+																																												ctor: '::',
+																																												_0: A2(
+																																													_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$image,
+																																													{ctor: '_Tuple2', _0: 305, _1: 283},
+																																													'assets/mosaic-jimmy-2017-11-06.png'),
+																																												_1: {ctor: '[]'}
+																																											}),
+																																										_1: {ctor: '[]'}
+																																									}
 																																								},
 																																								_1: {
 																																									ctor: '::',
 																																									_0: {
 																																										ctor: '::',
-																																										_0: A2(
-																																											_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$background,
-																																											'assets/architecture.png',
-																																											{ctor: '[]'}),
+																																										_0: _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$shout('The Mosaic Architecture'),
 																																										_1: {ctor: '[]'}
 																																									},
 																																									_1: {
@@ -12523,94 +12553,105 @@ var _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Slides$s
 																																										_0: {
 																																											ctor: '::',
 																																											_0: A2(
-																																												_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Slides$bulletslide,
-																																												'Recap On Team Autonomy',
-																																												{
-																																													ctor: '::',
-																																													_0: 'teams decide on processes',
-																																													_1: {
-																																														ctor: '::',
-																																														_0: 'teams decide on technology',
-																																														_1: {
-																																															ctor: '::',
-																																															_0: 'teams decide on deployment and operation',
-																																															_1: {ctor: '[]'}
-																																														}
-																																													}
-																																												}),
-																																											_1: {
-																																												ctor: '::',
-																																												_0: A2(
-																																													_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$position,
-																																													{ctor: '_Tuple2', _0: 800, _1: 480},
-																																													{
-																																														ctor: '::',
-																																														_0: A2(
-																																															_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$image,
-																																															{ctor: '_Tuple2', _0: 120, _1: 120},
-																																															'assets/zalando.jpg'),
-																																														_1: {ctor: '[]'}
-																																													}),
-																																												_1: {ctor: '[]'}
-																																											}
+																																												_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$background,
+																																												'assets/architecture.png',
+																																												{ctor: '[]'}),
+																																											_1: {ctor: '[]'}
 																																										},
 																																										_1: {
 																																											ctor: '::',
 																																											_0: {
 																																												ctor: '::',
-																																												_0: _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$padded(
+																																												_0: A2(
+																																													_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Slides$bulletslide,
+																																													'Recap On Team Autonomy',
 																																													{
 																																														ctor: '::',
-																																														_0: _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$title('Open Source & Links'),
+																																														_0: 'teams decide on processes',
 																																														_1: {
 																																															ctor: '::',
-																																															_0: _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$bullets(
-																																																A2(
-																																																	_elm_lang$core$List$map,
-																																																	function (a) {
-																																																		return A2(_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$linkBullet, a, a);
-																																																	},
-																																																	{
-																																																		ctor: '::',
-																																																		_0: 'https://www.mosaic9.org',
-																																																		_1: {
-																																																			ctor: '::',
-																																																			_0: 'https://github.com/zalando/tailor',
-																																																			_1: {
-																																																				ctor: '::',
-																																																				_0: 'https://github.com/zalando/skipper',
-																																																				_1: {
-																																																					ctor: '::',
-																																																					_0: 'https://github.com/zalando/innkeeper',
-																																																					_1: {
-																																																						ctor: '::',
-																																																						_0: 'https://tech.zalando.com',
-																																																						_1: {ctor: '[]'}
-																																																					}
-																																																				}
-																																																			}
-																																																		}
-																																																	})),
+																																															_0: 'teams decide on technology',
 																																															_1: {
 																																																ctor: '::',
-																																																_0: A2(
-																																																	_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$position,
-																																																	{ctor: '_Tuple2', _0: 800, _1: 480},
-																																																	{
-																																																		ctor: '::',
-																																																		_0: A2(
-																																																			_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$image,
-																																																			{ctor: '_Tuple2', _0: 120, _1: 120},
-																																																			'assets/zalando.jpg'),
-																																																		_1: {ctor: '[]'}
-																																																	}),
+																																																_0: 'teams decide on deployment and operation',
 																																																_1: {ctor: '[]'}
 																																															}
 																																														}
 																																													}),
-																																												_1: {ctor: '[]'}
+																																												_1: {
+																																													ctor: '::',
+																																													_0: A2(
+																																														_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$position,
+																																														{ctor: '_Tuple2', _0: 800, _1: 480},
+																																														{
+																																															ctor: '::',
+																																															_0: A2(
+																																																_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$image,
+																																																{ctor: '_Tuple2', _0: 120, _1: 120},
+																																																'assets/zalando.jpg'),
+																																															_1: {ctor: '[]'}
+																																														}),
+																																													_1: {ctor: '[]'}
+																																												}
 																																											},
-																																											_1: {ctor: '[]'}
+																																											_1: {
+																																												ctor: '::',
+																																												_0: {
+																																													ctor: '::',
+																																													_0: _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$padded(
+																																														{
+																																															ctor: '::',
+																																															_0: _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$title('Open Source & Links'),
+																																															_1: {
+																																																ctor: '::',
+																																																_0: _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$bullets(
+																																																	A2(
+																																																		_elm_lang$core$List$map,
+																																																		function (a) {
+																																																			return A2(_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$linkBullet, a, a);
+																																																		},
+																																																		{
+																																																			ctor: '::',
+																																																			_0: 'https://www.mosaic9.org',
+																																																			_1: {
+																																																				ctor: '::',
+																																																				_0: 'https://github.com/zalando/tailor',
+																																																				_1: {
+																																																					ctor: '::',
+																																																					_0: 'https://github.com/zalando/skipper',
+																																																					_1: {
+																																																						ctor: '::',
+																																																						_0: 'https://github.com/zalando/innkeeper',
+																																																						_1: {
+																																																							ctor: '::',
+																																																							_0: 'https://tech.zalando.com',
+																																																							_1: {ctor: '[]'}
+																																																						}
+																																																					}
+																																																				}
+																																																			}
+																																																		})),
+																																																_1: {
+																																																	ctor: '::',
+																																																	_0: A2(
+																																																		_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$position,
+																																																		{ctor: '_Tuple2', _0: 800, _1: 480},
+																																																		{
+																																																			ctor: '::',
+																																																			_0: A2(
+																																																				_w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$image,
+																																																				{ctor: '_Tuple2', _0: 120, _1: 120},
+																																																				'assets/zalando.jpg'),
+																																																			_1: {ctor: '[]'}
+																																																		}),
+																																																	_1: {ctor: '[]'}
+																																																}
+																																															}
+																																														}),
+																																													_1: {ctor: '[]'}
+																																												},
+																																												_1: {ctor: '[]'}
+																																											}
 																																										}
 																																									}
 																																								}
