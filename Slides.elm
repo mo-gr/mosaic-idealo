@@ -169,6 +169,7 @@ slides =
             , "timeout — optional timeout of fragment in milliseconds"
             , "async — postpones the fragment until the end of body tag"
             , "fallback-src — URL of the fallback fragment in case of timeout/error"
+            , "timing-group - User defined metrics"
             ]
       ]
     , [ codeslide "Frontend Composition: Pipe" "xml" """<script src=".../require-2.1.22.min.js"></script>
@@ -387,6 +388,7 @@ jimmyCatchall: *
             , position ( 800, 480 ) [ image ( 120, 120 ) "assets/zalando.jpg" ]
             ]
       ]
+    , [ shout "Q & A" ]
     ]
         |> List.map ((::) orangeLine)
         |> List.map slide

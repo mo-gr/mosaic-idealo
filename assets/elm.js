@@ -12122,7 +12122,11 @@ var _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Slides$s
 																							_1: {
 																								ctor: '::',
 																								_0: 'fallback-src — URL of the fallback fragment in case of timeout/error',
-																								_1: {ctor: '[]'}
+																								_1: {
+																									ctor: '::',
+																									_0: 'timing-group - User defined metrics',
+																									_1: {ctor: '[]'}
+																								}
 																							}
 																						}
 																					}
@@ -12658,7 +12662,15 @@ var _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Slides$s
 																																														}),
 																																													_1: {ctor: '[]'}
 																																												},
-																																												_1: {ctor: '[]'}
+																																												_1: {
+																																													ctor: '::',
+																																													_0: {
+																																														ctor: '::',
+																																														_0: _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$shout('Q & A'),
+																																														_1: {ctor: '[]'}
+																																													},
+																																													_1: {ctor: '[]'}
+																																												}
 																																											}
 																																										}
 																																									}
