@@ -11762,7 +11762,11 @@ var _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Slides$i
 					{
 						ctor: '::',
 						_0: _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$richtext('Moritz Grauel [@mo_gr](https://twitter.com/mo_gr)'),
-						_1: {ctor: '[]'}
+						_1: {
+							ctor: '::',
+							_0: _w0rm$project_mosaic_an_architecture_for_the_frontend_microservices$Formatting$richtext('Uwe Kaminski [@ju_key](https://twitter.com/mo_gr)'),
+							_1: {ctor: '[]'}
+						}
 					}),
 				_1: {ctor: '[]'}
 			}

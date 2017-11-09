@@ -16,6 +16,7 @@ intro =
     , position ( 0, 250 ) [ image ( 1024, 200 ) "assets/mosaic-stripe.jpg" ]
     , position ( 110, 480 )
         [ richtext """Moritz Grauel [@mo_gr](https://twitter.com/mo_gr)"""
+        , richtext """Uwe Kaminski [@ju_key](https://twitter.com/mo_gr)"""
         ]
     ]
 
